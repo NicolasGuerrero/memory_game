@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Memory Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Memory Game</h1>
+        </header>
+        <span class = "display">
+          <div>
+            Current Score: <span class = "attempts">0</span> 
+            Best Score: <span class = "best">X</span>
+            </div>
+        </span> 
+        <!--
+        <button class ="button" id = "myBtn">Open Modal</button>
+        -->
+        <div id="myModal" class = "modal">
+          <div class = "modal-content">
+            <span class="close">&times;</span>
+            <h1>Game Complete</h1>
+            <div>
+              You completed in <span class = "final">0</span> attempts
+            </div>
+            <div>
+              <button class= "button playAgain" id="playAgain" onclick=startAgain()>
+                Play Again
+              </button>
+
+            </div>
+          </div>
+        </div>
+        <section class="deck">
+          <div class="card" id="red">
+            <div class = "side front red"></div>
+            <div class = "side back"></div>
+          </div>
+              
+          <div class="card" id="red">
+            <div class = "side front red"></div>
+            <div class = "side back"></div>
+          </div>
+              
+          <div class="card" id="orange">
+            <div class = "side front orange"></div>
+            <div class = "side back"></div>
+          </div>
+              
+          <div class="card" id="orange">
+            <div class = "side front orange"></div>
+            <div class = "side back"></div>
+          </div>
+          <div class="card" id="yellow">
+            <div class = "side front yellow"></div>
+            <div class = "side back"></div>
+          </div>
+                
+          <div class="card" id="yellow">
+            <div class = "side front yellow"></div>
+            <div class = "side back"></div>
+          </div>
+          <div class="card" id="green">
+            <div class = "side front green"></div>
+            <div class = "side back"></div>
+          </div>
+                
+          <div class="card" id="green">
+            <div class = "side front green"></div>
+            <div class = "side back"></div>
+          </div>
+              
+          <div class="card" id="blue">
+            <div class = "side front blue"></div>
+            <div class = "side back"></div>
+          </div>
+                
+          <div class="card" id="blue">
+            <div class = "side front blue"></div>
+            <div class = "side back"></div>
+          </div>
+                
+          <div class="card" id="violet">
+            <div class = "side front violet"></div>
+            <div class = "side back"></div>
+          </div>
+                
+          <div class="card" id="violet">
+            <div class = "side front violet"></div>
+            <div class = "side back"></div>
+          </div>
+                  
+          <div class="card" id="pink">
+              <div class = "side front pink"></div>
+              <div class = "side back"></div>
+            </div>
+                  
+            <div class="card" id="pink">
+              <div class = "side front pink"></div>
+              <div class = "side back"></div>
+            </div>
+                  
+            <div class="card" id="teal">
+              <div class = "side front teal"></div>
+              <div class = "side back"></div>
+            </div>
+                  
+            <div class="card" id="teal">
+              <div class = "side front teal"></div>
+              <div class = "side back"></div>
+            </div>
+        </section>
+    <script src="script.js"></script>
+</body>
+</html>
